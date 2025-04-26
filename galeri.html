@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id" class="bg-white text-black">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Galeri Foto</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="script.js" defer></script>
+</head>
+<body class="min-h-screen flex flex-col">
+
+  <nav class="flex justify-between items-center p-4 shadow-md">
+    <div class="font-bold text-lg">Portal Kelas</div>
+    <div class="flex gap-4">
+      <a href="index.html" class="hover:underline">Struktur</a>
+      <a href="piket.html" class="hover:underline">Piket</a>
+      <a href="jadwal.html" class="hover:underline">Pelajaran</a>
+      <a href="galeri.html" class="hover:underline">Galeri</a>
+      <button onclick="toggleTheme()" class="ml-4 bg-gray-200 dark:bg-gray-700 px-3 py-1 rounded">Ganti Tema</button>
+    </div>
+  </nav>
+
+  <main class="flex-grow flex flex-col items-center px-4 py-8">
+    <h1 class="text-3xl font-bold mb-8">Memory Foto</h1>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 w-full max-w-5xl">
+      <img src="https://via.placeholder.com/300x200" alt="Foto 1" class="rounded-lg shadow-md">
+      <img src="https://via.placeholder.com/300x200" alt="Foto 2" class="rounded-lg shadow-md">
+      <img src="https://via.placeholder.com/300x200" alt="Foto 3" class="rounded-lg shadow-md">
+    </div>
+  </main>
+
+  <footer class="text-center p-4 text-sm text-gray-500">
+    © 2025 Kelas Kita
+  </footer>
+
+</body>
+</html>
