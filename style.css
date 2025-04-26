@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: white;
+  color: black;
+}
+header {
+  padding: 1rem;
+  text-align: center;
+  background: #3a0ca3;
+  color: white;
+}
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+nav a, nav button {
+  padding: 10px 20px;
+  text-decoration: none;
+  background: #4cc9f0;
+  color: black;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.container {
+  padding: 1rem;
+}
+.galeri-item {
+  width: 100%;
+  max-width: 300px;
+  margin: 10px;
+  display: inline-block;
+}
+.dark-mode {
+  background: black;
+  color: white;
+}
+.dark-mode header {
+  background: #222;
+}
